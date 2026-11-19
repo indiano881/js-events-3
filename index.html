@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events 3 - Keyboard, Input, Change</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js" defer></script>
+</head>
+<body>
+    <h1 id="title">JS Events 3</h1>
+    <p class="hint">Open the console (F12) and try every box!</p>
+
+    <section class="card">
+        <h2>1. Keyboard events</h2>
+        <input type="text" id="key-box" placeholder="Type something... (Enter = save, Escape = clear)">
+        <p id="key-output">Last key: -</p>
+        <p id="saved-word">Saved word: -</p>
+    </section>
+
+    <section class="card">
+        <h2>2. Input event</h2>
+        <input type="text" id="name-input" placeholder="Write your name">
+        <p id="greeting">Hello, stranger!</p>
+    </section>
+
+    <section class="card">
+        <h2>3. Input vs Change (slider)</h2>
+        <input type="range" id="range" min="0" max="100" value="50">
+        <p>Value: <span id="range-value">50</span></p>
+    </section>
+</body>
+</html>
